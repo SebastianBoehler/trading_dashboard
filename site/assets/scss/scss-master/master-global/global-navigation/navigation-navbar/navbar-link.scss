@@ -1,0 +1,153 @@
+
+
+// Utitlities
+
+@import "../../../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Navigation - Navbar - Link -------------------- //
+
+.navbar {
+    
+    // Primary
+
+    &.navbar-primary {
+        .navbar-brand {
+            @include display-flex;
+
+            @include align-items-center;
+
+            @include mx-0;
+
+            span {
+                &.for-logo {
+                    @include mr-3;
+
+                    width                   : 2.25rem;
+                    height                  : 2.25rem;
+
+                    background-color        : $c-primary-normal;
+                    border-radius           : 100%;
+                }
+
+                &.for-text {
+                    @include font-primary-medium;
+                    @include h6;
+
+                    color           : $c-black;
+                }
+            }
+        }
+
+        .navbar-nav {
+
+            // Nav Primary
+
+            &.nav-primary {
+                .nav-link {
+                    @include display-flex;
+
+                    @include align-items-center;
+
+                    @include font-primary-medium;
+                    @include p;
+
+                    justify-content         : center;                  
+
+                    // Link Primary
+
+                    &.link-primary {
+                        color               : $c-black;
+
+                        i {
+                            @include pr-2;
+
+                            @include h6;
+
+                            color           : $c-primary-normal;
+                        }
+
+                        &:hover, &:focus, &:active {
+                            color               : $c-primary-normal;
+                        }
+                    }
+
+                    // Link Secondary
+
+                    &.link-secondary {
+                        width               : 7.25rem;
+                        height              : 2.5rem;
+
+                        color               : $c-white;
+
+                        background-color    : $c-primary-normal;
+                        border-radius       : 50em;
+
+                        &:hover, &:focus, &:active {
+                            background-color    : $c-primary-darken;
+                        }
+                    }
+                }
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+
+            .navbar-nav {
+
+                // Nav Primary
+
+                &.nav-primary {
+                    .nav-link {
+
+                        // Link Secondary
+
+                        &.link-secondary {
+                            @include my-3;
+                        }
+                    }
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+
+            .navbar-brand {
+                span {
+                    &.for-text {
+                        @include ellipsis-single;
+
+                        max-width       : 12.5rem;
+                    }
+                }
+            }
+
+            .navbar-nav {
+
+                // Nav Primary
+
+                &.nav-primary {
+                    .nav-link {
+
+                        // Link Primary
+
+                        &.link-primary {
+                            @include display-block;
+
+                            @include py-3;
+
+                            border-bottom       : 1px solid $c-grey-light;
+                        }
+
+                        // Link Secondary
+
+                        &.link-secondary {
+                            @include width-100;
+
+                            height      : 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+
+
+// Utitlities
+
+@import "../../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Page - Home - Layout -------------------- //
+
+.home {
+
+
+    // Analytic
+
+    .analytic {
+        > .container {
+            > .row {
+                .col-outer {
+                    .col-inner {
+                        @include mb-4;
+                    }
+                }
+            }
+        }
+    }
+}
+

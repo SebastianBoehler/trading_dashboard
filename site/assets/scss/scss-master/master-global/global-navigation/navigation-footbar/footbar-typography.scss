@@ -1,0 +1,29 @@
+
+
+// Utitlities
+
+@import "../../../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Navigation - Footbar - Typography -------------------- //
+
+.footbar {
+
+    // Primary
+
+    &.footbar-primary {
+        .footbar-copyright {
+            .copyright-text {
+                .desc {
+                    p {
+                        @include mb-0;
+
+                        @include font-primary-light;
+                        @include p;
+
+                        color       : $c-grey-super-light;
+                    }
+                }
+            }
+        }
+    }
+}

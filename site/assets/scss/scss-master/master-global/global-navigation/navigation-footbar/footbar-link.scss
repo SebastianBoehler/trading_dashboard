@@ -1,0 +1,28 @@
+
+
+// Utitlities
+
+@import "../../../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Navigation - Footbar - Button -------------------- //
+
+.footbar {
+
+    // Primary
+
+    &.footbar-primary {
+
+        .footbar-navigation {
+            .navigation-link {
+                .foot-link {
+                    @include font-primary-light;
+                    @include p;
+
+                    @include text-decoration-none;
+
+                    color       : $c-grey-super-light;
+                }
+            }
+        }
+    }
+}

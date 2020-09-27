@@ -1,0 +1,78 @@
+
+
+// Utitlities
+
+@import "../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Master - Desktop - General -------------------- //
+
+// Html
+
+html {
+    scroll-behavior: smooth;
+}
+
+// Body
+
+body {
+    @include position-relative;
+
+    @include pr-0;
+
+    font-family         : 'Poppins';
+
+    color               : $c-black;
+
+    background-color    : $c-grey-super-light;
+
+    .page {
+        @include pb-5;
+    }
+}
+
+// Grid
+
+.container {
+    padding-top         : 3.5rem;
+    padding-bottom      : 3.5rem;
+}
+
+.container-fluid {
+    padding-top         : 3.5rem;
+    padding-bottom      : 3.5rem;
+}
+
+.row-responsive {
+    @include media-breakpoint-down(md) {
+        @include display-webkit-box;
+
+        @include overflow-y-hidden;
+        @include overflow-x-auto;
+
+        flex-wrap       : nowrap;
+    }
+}
+
+// Image
+
+img {
+    width               : 100%;
+}
+
+// Anchor
+
+a {
+    transition          : all 0.5s ease;
+
+    i {
+        transition      : all 0.25s ease;
+    }
+
+    &:hover &:focus, &:active {
+        transition      : all 0.5s ease;
+
+        i {
+            transition  : all 0.25s ease;
+        }
+    }
+}

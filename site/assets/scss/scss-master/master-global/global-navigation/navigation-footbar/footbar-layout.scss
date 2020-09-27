@@ -1,0 +1,57 @@
+
+
+// Utitlities
+
+@import "../../../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Navigation - Footbar - Layout -------------------- //
+
+.footbar {
+
+    // Primary
+
+    &.footbar-primary {
+        @include position-absolute;
+
+        @include width-100;
+
+        bottom                  : 0;
+        left                    : 0; 
+
+        background-color        : $c-primary-normal;
+
+        > .container {
+            @include py-2;
+
+            max-width           : 1300px;
+
+            > .row {
+                .col-copyright {
+                    @include text-align-right;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+
+            > .container {
+                @include pt-0;
+
+                > .row {
+                    .col-navigation {
+                        @include text-align-center;
+
+                        @include py-2;
+                        @include mb-2;
+
+                        border-bottom       : 1px solid $c-white;
+                    }
+
+                    .col-copyright {
+                        @include text-align-center;
+                    }
+                }
+            }
+        }
+    }
+}

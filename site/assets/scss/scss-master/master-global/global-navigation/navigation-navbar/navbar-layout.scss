@@ -1,0 +1,81 @@
+
+
+// Utitlities
+
+@import "../../../../Scss-Utilities/Utilities.scss";
+
+// -------------------- Navigation - Navbar - Layout -------------------- //
+
+.navbar {
+    
+    // Primary
+
+    &.navbar-primary {
+        background-color        : $c-white;
+
+        box-shadow              : rgba(40, 44, 64, 0.035) 0 5px 25px 1px;
+
+        > .container {
+            @include p-0;
+
+            max-width           : 1300px;
+        }
+
+        .navbar-nav {
+
+            // Nav Primary
+
+            &.nav-primary {
+                @include align-items-center;
+
+                @include ml-auto;
+
+                .nav-item {
+                    @include mx-3;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+
+            .navbar-nav {
+
+                // Nav Primary
+
+                &.nav-primary {
+                    @include pt-3;
+
+                    flex-direction      : row;
+
+                    .nav-item {
+                        &:last-child {
+                            @include ml-auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+
+            .navbar-nav {
+
+                // Nav Primary
+
+                &.nav-primary {
+                    flex-direction      : column;
+
+                    .nav-item {
+                        @include display-block;
+
+                        @include width-100;
+
+                        &:last-child {
+                            @include ml-3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

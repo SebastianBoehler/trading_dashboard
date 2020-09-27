@@ -1,0 +1,579 @@
+﻿@charset "UTF-8";
+/*fontello.css*/
+@font-face {
+  font-family: 'fontello';
+  src: url("../Scss/fonts/fontello.eot?4737443");
+  src: url("../Scss/fonts/fontello.eot?4737443#iefix") format("embedded-opentype"), url("../Scss/fonts/fontello.woff2?4737443") format("woff2"), url("../Scss/fonts/fontello.woff?4737443") format("woff"), url("../Scss/fonts/fontello.ttf?4737443") format("truetype"), url("../Scss/fonts/fontello.svg?4737443#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../Scss/font/fontello.svg?4737443#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-bbm:before {
+  content: '\e800'; }
+
+/* '' */
+.icon-line:before {
+  content: '\e80e'; }
+
+/* '' */
+.icon-woffi:before {
+  content: '\e812'; }
+
+/* '' */
+/*end fontello.css*/
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Poppins/Poppins-Light.otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Poppins/Poppins-Regular.otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Poppins/Poppins-Medium.otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Poppins/Poppins-SemiBold.otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Poppins/Poppins-Bold.otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Poppins/Poppins-ExtraBold.otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Poppins/Poppins-Black.otf");
+  font-display: swap; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  position: relative;
+  padding-right: 0rem !important;
+  font-family: 'Poppins';
+  color: #464458;
+  background-color: #f4f5fe; }
+  body .page {
+    padding-bottom: 2.5rem !important; }
+
+.container {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem; }
+
+.container-fluid {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem; }
+
+@media (max-width: 991.98px) {
+  .row-responsive {
+    display: -webkit-box;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap; } }
+
+img {
+  width: 100%; }
+
+a {
+  transition: all 0.5s ease; }
+  a i {
+    transition: all 0.25s ease; }
+  a:hover a:focus, a:active {
+    transition: all 0.5s ease; }
+    a:hover a:focus i, a:active i {
+      transition: all 0.25s ease; }
+
+.analytic-card.card-primary {
+  height: 100% !important;
+  padding: 1.5rem !important;
+  background-color: #ffffff;
+  border-radius: 0.5em; }
+  .analytic-card.card-primary .analytic-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem !important;
+    justify-content: space-between; }
+    .analytic-card.card-primary .analytic-card-header .analytic-text .title h3 {
+      margin-bottom: 0rem !important;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #464458; }
+    .analytic-card.card-primary .analytic-card-header .analytic-button .btn-analytic {
+      padding-top: 0.25rem !important;
+      padding-bottom: 0.25rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 24px;
+      color: #6573ed;
+      background-color: #ffffff;
+      border: 1px solid #6573ed;
+      border-radius: 50em; }
+      .analytic-card.card-primary .analytic-card-header .analytic-button .btn-analytic:hover {
+        color: #ffffff;
+        background-color: #6573ed; }
+  .analytic-card.card-primary .analytic-card-content {
+    margin-bottom: 1rem !important; }
+    .analytic-card.card-primary .analytic-card-content .analytic-wrapper {
+      position: relative;
+      overflow: hidden;
+      height: 13rem;
+      padding: 3.5rem 1.5rem 1rem 1.5rem;
+      border: 0.5px solid #f4f5fe;
+      border-radius: 0.5em; }
+    .analytic-card.card-primary .analytic-card-content .wrapper-header {
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .analytic-card.card-primary .analytic-card-content .wrapper-header .analytic-text .title h3 {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        margin-bottom: 0rem !important;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #6573ed;
+        background-color: #f4f5fe;
+        border-bottom-right-radius: 0.5em; }
+    .analytic-card.card-primary .analytic-card-content .wrapper-content .content-inner {
+      margin-bottom: 1rem !important; }
+    .analytic-card.card-primary .analytic-card-content .wrapper-content .progress-label {
+      display: flex;
+      justify-content: space-between; }
+      .analytic-card.card-primary .analytic-card-content .wrapper-content .progress-label .lab-text {
+        margin-bottom: 0.25rem !important;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        color: #464458; }
+        .analytic-card.card-primary .analytic-card-content .wrapper-content .progress-label .lab-text i {
+          padding-right: 0.50rem !important;
+          font-size: 14px;
+          line-height: 28px;
+          color: #6573ed; }
+      .analytic-card.card-primary .analytic-card-content .wrapper-content .progress-label .lab-time {
+        margin-bottom: 0.25rem !important;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #464458; }
+    .analytic-card.card-primary .analytic-card-content .wrapper-content .progress {
+      height: 1.25rem;
+      background-color: #f4f5fe;
+      border-radius: 50em; }
+      .analytic-card.card-primary .analytic-card-content .wrapper-content .progress .progress-bar {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        background-color: #6573ed; }
+  .analytic-card.card-primary .analytic-card-footer .analytic-text .title h3 {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+    padding-top: 0.50rem !important;
+    padding-bottom: 0.50rem !important;
+    margin-bottom: 0rem !important;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #6573ed;
+    background-color: #f4f5fe;
+    border-radius: 50em; }
+    .analytic-card.card-primary .analytic-card-footer .analytic-text .title h3 span i {
+      padding-right: 0.25rem !important; }
+
+.analytic-card.card-secondary {
+  height: 100% !important;
+  padding: 1.5rem !important;
+  background-color: #ffffff;
+  border-radius: 0.5em; }
+  .analytic-card.card-secondary .analytic-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem !important;
+    justify-content: space-between; }
+    .analytic-card.card-secondary .analytic-card-header .analytic-text .title h3 {
+      margin-bottom: 0rem !important;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #464458; }
+    .analytic-card.card-secondary .analytic-card-header .analytic-button .btn-analytic {
+      padding-top: 0.25rem !important;
+      padding-bottom: 0.25rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 24px;
+      color: #ffffff;
+      background-color: #6573ed;
+      border-radius: 50em; }
+      .analytic-card.card-secondary .analytic-card-header .analytic-button .btn-analytic:hover {
+        background-color: #3749e8; }
+  .analytic-card.card-secondary .analytic-card-content {
+    margin-bottom: 1rem !important; }
+    .analytic-card.card-secondary .analytic-card-content .analytic-wrapper {
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      padding: 1.5rem !important;
+      justify-content: center;
+      height: 13rem;
+      border: 0.5px solid #f4f5fe;
+      border-radius: 0.5em; }
+    .analytic-card.card-secondary .analytic-card-content .wrapper-header {
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .analytic-card.card-secondary .analytic-card-content .wrapper-header .analytic-text .title h3 {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        margin-bottom: 0rem !important;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #6573ed;
+        background-color: #f4f5fe;
+        border-bottom-right-radius: 0.5em; }
+    .analytic-card.card-secondary .analytic-card-content .wrapper-content .analytic-text {
+      text-align: center; }
+      .analytic-card.card-secondary .analytic-card-content .wrapper-content .analytic-text .desc p {
+        margin-bottom: 0rem !important;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        line-height: 1.65;
+        color: #464458; }
+        .analytic-card.card-secondary .analytic-card-content .wrapper-content .analytic-text .desc p span {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-style: italic; }
+  @media (max-width: 767.98px) {
+    .analytic-card.card-secondary .analytic-card-content .analytic-wrapper {
+      padding-top: 2.5rem !important;
+      height: 8.5rem; } }
+
+.smallest {
+  font-size: 10px;
+  line-height: 20px; }
+
+small {
+  font-size: 12px;
+  line-height: 24px; }
+
+.small {
+  font-size: 12px;
+  line-height: 24px; }
+
+p {
+  font-size: 14px;
+  line-height: 28px; }
+
+.p {
+  font-size: 14px;
+  line-height: 28px; }
+
+@media (max-width: 991.98px) {
+  .h1-sm {
+    font-size: 2.5rem; }
+  .h2-sm {
+    font-size: 2rem; }
+  .h3-sm {
+    font-size: 1.75rem; }
+  .h4-sm {
+    font-size: 1.5rem; }
+  .h5-sm {
+    font-size: 1.25rem; }
+  .h6-sm {
+    font-size: 1rem; }
+  .display-4-sm {
+    font-size: 3.5rem; }
+  .display-3-sm {
+    font-size: 4.5rem; }
+  .display-2-sm {
+    font-size: 5.5rem; }
+  .display-1-sm {
+    font-size: 6.5rem; } }
+
+@media (min-width: 768px) {
+  .h1-md {
+    font-size: 2.5rem; }
+  .h2-md {
+    font-size: 2rem; }
+  .h3-md {
+    font-size: 1.75rem; }
+  .h4-md {
+    font-size: 1.5rem; }
+  .h5-md {
+    font-size: 1.25rem; }
+  .h6-md {
+    font-size: 1rem; }
+  .display-4-md {
+    font-size: 3.5rem; }
+  .display-3-md {
+    font-size: 4.5rem; }
+  .display-2-md {
+    font-size: 5.5rem; }
+  .display-1-md {
+    font-size: 6.5rem; } }
+
+@media (min-width: 992px) {
+  .h1-lg {
+    font-size: 2.5rem; }
+  .h2-lg {
+    font-size: 2rem; }
+  .h3-lg {
+    font-size: 1.75rem; }
+  .h4-lg {
+    font-size: 1.5rem; }
+  .h5-lg {
+    font-size: 1.25rem; }
+  .h6-lg {
+    font-size: 1rem; }
+  .display-4-lg {
+    font-size: 3.5rem; }
+  .display-3-lg {
+    font-size: 4.5rem; }
+  .display-2-lg {
+    font-size: 5.5rem; }
+  .display-1-lg {
+    font-size: 6.5rem; } }
+
+.navbar.navbar-primary {
+  background-color: #ffffff;
+  box-shadow: rgba(40, 44, 64, 0.035) 0 5px 25px 1px; }
+  .navbar.navbar-primary > .container {
+    padding: 0rem !important;
+    max-width: 1300px; }
+  .navbar.navbar-primary .navbar-nav.nav-primary {
+    align-items: center;
+    margin-left: auto !important; }
+    .navbar.navbar-primary .navbar-nav.nav-primary .nav-item {
+      margin-left: 1rem !important;
+      margin-right: 1rem !important; }
+  @media (max-width: 991.98px) {
+    .navbar.navbar-primary .navbar-nav.nav-primary {
+      padding-top: 1rem !important;
+      flex-direction: row; }
+      .navbar.navbar-primary .navbar-nav.nav-primary .nav-item:last-child {
+        margin-left: auto !important; } }
+  @media (max-width: 767.98px) {
+    .navbar.navbar-primary .navbar-nav.nav-primary {
+      flex-direction: column; }
+      .navbar.navbar-primary .navbar-nav.nav-primary .nav-item {
+        display: block;
+        width: 100% !important; }
+        .navbar.navbar-primary .navbar-nav.nav-primary .nav-item:last-child {
+          margin-left: 1rem !important; } }
+
+.navbar.navbar-primary .navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 0rem !important;
+  margin-right: 0rem !important; }
+  .navbar.navbar-primary .navbar-brand span.for-logo {
+    margin-right: 1rem !important;
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: #6573ed;
+    border-radius: 100%; }
+  .navbar.navbar-primary .navbar-brand span.for-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #464458; }
+
+.navbar.navbar-primary .navbar-nav.nav-primary .nav-link {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  justify-content: center; }
+  .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-primary {
+    color: #464458; }
+    .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-primary i {
+      padding-right: 0.50rem !important;
+      font-size: 16px;
+      line-height: 24px;
+      color: #6573ed; }
+    .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-primary:hover, .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-primary:focus, .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-primary:active {
+      color: #6573ed; }
+  .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-secondary {
+    width: 7.25rem;
+    height: 2.5rem;
+    color: #ffffff;
+    background-color: #6573ed;
+    border-radius: 50em; }
+    .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-secondary:hover, .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-secondary:focus, .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-secondary:active {
+      background-color: #3749e8; }
+
+@media (max-width: 991.98px) {
+  .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-secondary {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important; } }
+
+@media (max-width: 767.98px) {
+  .navbar.navbar-primary .navbar-brand span.for-text {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: 1;
+    max-width: 12.5rem; }
+  .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-primary {
+    display: block;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    border-bottom: 1px solid #bfc1cb; }
+  .navbar.navbar-primary .navbar-nav.nav-primary .nav-link.link-secondary {
+    width: 100% !important;
+    height: 3rem; } }
+
+.navbar.navbar-primary .navbar-toggler i {
+  color: #464458; }
+
+.footbar.footbar-primary {
+  position: absolute;
+  width: 100% !important;
+  bottom: 0;
+  left: 0;
+  background-color: #6573ed; }
+  .footbar.footbar-primary > .container {
+    padding-top: 0.50rem !important;
+    padding-bottom: 0.50rem !important;
+    max-width: 1300px; }
+    .footbar.footbar-primary > .container > .row .col-copyright {
+      text-align: right; }
+  @media (max-width: 767.98px) {
+    .footbar.footbar-primary > .container {
+      padding-top: 0rem !important; }
+      .footbar.footbar-primary > .container > .row .col-navigation {
+        text-align: center;
+        padding-top: 0.50rem !important;
+        padding-bottom: 0.50rem !important;
+        margin-bottom: 0.50rem !important;
+        border-bottom: 1px solid #ffffff; }
+      .footbar.footbar-primary > .container > .row .col-copyright {
+        text-align: center; } }
+
+.footbar.footbar-primary .footbar-copyright .copyright-text .desc p {
+  margin-bottom: 0rem !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #f4f5fe; }
+
+.footbar.footbar-primary .footbar-navigation .navigation-link .foot-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #f4f5fe; }
+
+.home .analytic > .container > .row .col-outer .col-inner {
+  margin-bottom: 1.5rem !important; }
