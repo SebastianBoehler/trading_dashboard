@@ -91,1129 +91,1129 @@ $(window).on('load', async function () {
     }
 
     var data = {
-        "CGLD-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "1": {
-                "trend": "-100",
-                "difference": "0.990"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "0.995"
-            },
-            "3": {
-                "trend": "-100",
-                "difference": "0.996"
-            },
-            "volatility": "7.59 %",
-            "3h_volatility": "3.82 %",
-            "1h_volatility": "0.89 %",
-            "15m_volatility": "0.09 %"
-        },
-        "UMA-EUR": {
-            "0": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.999"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.000"
-            },
-            "3": {
-                "trend": "-66.66",
-                "difference": "1.023"
-            },
-            "volatility": "5.31 %",
-            "3h_volatility": "2.06 %",
-            "1h_volatility": "1.14 %",
-            "15m_volatility": "0.10 %"
-        },
-        "GNT-USDC": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.001"
-            },
-            "1": {
-                "trend": "-66.66",
-                "difference": "1.023"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.104"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.114"
-            },
-            "volatility": "12.61 %",
-            "3h_volatility": "5.49 %",
-            "1h_volatility": "1.79 %",
-            "15m_volatility": "0.00 %"
-        },
-        "XTZ-BTC": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.995"
-            },
-            "1": {
-                "trend": "-66.66",
-                "difference": "0.992"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "0.997"
-            },
-            "3": {
-                "trend": "-66.66",
-                "difference": "1.014"
-            },
-            "volatility": "5.66 %",
-            "3h_volatility": "1.21 %",
-            "1h_volatility": "1.19 %",
-            "15m_volatility": "0.63 %"
-        },
-        "BAT-ETH": {
-            "0": {
-                "trend": "66.66",
-                "difference": "0.997"
-            },
-            "1": {
-                "trend": "-100",
-                "difference": "0.992"
-            },
-            "2": {
-                "trend": "66.66",
-                "difference": "1.009"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.007"
-            },
-            "volatility": "2.97 %",
-            "3h_volatility": "1.79 %",
-            "1h_volatility": "0.32 %",
-            "15m_volatility": "0.24 %"
-        },
-        "BCH-EUR": {
-            "0": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.000"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.002"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.009"
-            },
-            "volatility": "2.66 %",
-            "3h_volatility": "1.17 %",
-            "1h_volatility": "0.48 %",
-            "15m_volatility": "0.00 %"
-        },
-        "ZRX-EUR": {
-            "0": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.998"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.037"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.077"
-            },
-            "volatility": "4.39 %",
-            "3h_volatility": "2.24 %",
-            "1h_volatility": "0.57 %",
-            "15m_volatility": "0.45 %"
-        },
-        "ETH-BTC": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.999"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.005"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.009"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.015"
-            },
-            "volatility": "2.68 %",
-            "3h_volatility": "1.38 %",
-            "1h_volatility": "0.61 %",
-            "15m_volatility": "0.37 %"
-        },
-        "NMR-BTC": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.997"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.997"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.005"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.011"
-            },
-            "volatility": "4.20 %",
-            "3h_volatility": "1.61 %",
-            "1h_volatility": "1.03 %",
-            "15m_volatility": "0.31 %"
-        },
-        "ETC-EUR": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.003"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "1.000"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.000"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.005"
-            },
-            "volatility": "2.28 %",
-            "3h_volatility": "1.60 %",
-            "1h_volatility": "1.01 %",
-            "15m_volatility": "0.00 %"
-        },
-        "DNT-USDC": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.001"
-            },
-            "1": {
-                "trend": "33.33",
-                "difference": "0.997"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.007"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.028"
-            },
-            "volatility": "6.27 %",
-            "3h_volatility": "0.90 %",
-            "1h_volatility": "0.50 %",
-            "15m_volatility": "0.49 %"
-        },
-        "ALGO-EUR": {
-            "0": {
-                "trend": "100",
-                "difference": "1.012"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.050"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.093"
-            },
-            "volatility": "10.40 %",
-            "3h_volatility": "3.95 %",
-            "1h_volatility": "1.88 %",
-            "15m_volatility": "0.46 %"
-        },
-        "REP-BTC": {
-            "0": {
-                "trend": "66.66",
-                "difference": "0.986"
-            },
-            "1": {
-                "trend": "-33.33",
-                "difference": "1.052"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.064"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.055"
-            },
-            "volatility": "15.75 %",
-            "3h_volatility": "11.77 %",
-            "1h_volatility": "2.86 %",
-            "15m_volatility": "0.14 %"
-        },
-        "LINK-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.998"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.986"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.030"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.110"
-            },
-            "volatility": "11.73 %",
-            "3h_volatility": "4.09 %",
-            "1h_volatility": "2.43 %",
-            "15m_volatility": "0.98 %"
-        },
-        "XRP-EUR": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.001"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.022"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.041"
-            },
-            "volatility": "3.12 %",
-            "3h_volatility": "1.80 %",
-            "1h_volatility": "0.68 %",
-            "15m_volatility": "0.14 %"
-        },
-        "BAND-EUR": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.006"
-            },
-            "1": {
-                "trend": "33.33",
-                "difference": "0.989"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.043"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.107"
-            },
-            "volatility": "7.79 %",
-            "3h_volatility": "3.87 %",
-            "1h_volatility": "1.89 %",
-            "15m_volatility": "0.85 %"
-        },
-        "NMR-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.998"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.010"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.026"
-            },
-            "volatility": "4.60 %",
-            "3h_volatility": "2.00 %",
-            "1h_volatility": "1.04 %",
-            "15m_volatility": "0.00 %"
-        },
-        "XLM-BTC": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.997"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.997"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.023"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.030"
-            },
-            "volatility": "4.56 %",
-            "3h_volatility": "1.32 %",
-            "1h_volatility": "0.73 %",
-            "15m_volatility": "0.29 %"
-        },
         "XTZ-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.996"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.994"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.003"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.029"
-            },
-            "volatility": "6.18 %",
-            "3h_volatility": "1.58 %",
-            "1h_volatility": "1.15 %",
-            "15m_volatility": "0.36 %"
-        },
-        "ETH-DAI": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.013"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.029"
-            },
-            "volatility": "3.32 %",
-            "3h_volatility": "1.66 %",
-            "1h_volatility": "0.42 %",
-            "15m_volatility": "0.42 %"
-        },
-        "LOOM-USDC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.001"
-            },
-            "1": {
-                "trend": "-66.66",
-                "difference": "1.006"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.045"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.068"
-            },
-            "volatility": "5.30 %",
-            "3h_volatility": "3.26 %",
-            "1h_volatility": "1.52 %",
-            "15m_volatility": "1.15 %"
-        },
-        "MKR-BTC": {
-            "0": {
-                "trend": "-33.33",
-                "difference": "1.004"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.010"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.035"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.050"
-            },
-            "volatility": "3.38 %",
-            "3h_volatility": "2.22 %",
-            "1h_volatility": "0.90 %",
-            "15m_volatility": "0.04 %"
-        },
-        "EOS-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.007"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.016"
-            },
-            "volatility": "2.21 %",
-            "3h_volatility": "1.20 %",
-            "1h_volatility": "0.32 %",
-            "15m_volatility": "0.09 %"
-        },
-        "ETC-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.005"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.998"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "0.993"
-            },
-            "3": {
-                "trend": "-100",
-                "difference": "0.988"
-            },
-            "volatility": "4.70 %",
-            "3h_volatility": "1.69 %",
-            "1h_volatility": "0.74 %",
-            "15m_volatility": "0.19 %"
-        },
-        "UMA-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "1.000"
-            },
-            "2": {
-                "trend": "33.33",
-                "difference": "0.993"
-            },
-            "3": {
-                "trend": "-66.66",
-                "difference": "1.009"
-            },
-            "volatility": "5.76 %",
-            "3h_volatility": "3.19 %",
-            "1h_volatility": "1.54 %",
-            "15m_volatility": "0.44 %"
-        },
-        "LTC-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.014"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.024"
-            },
-            "volatility": "2.91 %",
-            "3h_volatility": "1.77 %",
-            "1h_volatility": "0.63 %",
-            "15m_volatility": "0.25 %"
-        },
-        "ETH-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.998"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.014"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.031"
-            },
-            "volatility": "3.37 %",
-            "3h_volatility": "2.04 %",
-            "1h_volatility": "0.99 %",
-            "15m_volatility": "0.67 %"
-        },
-        "BAT-USDC": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.997"
-            },
-            "1": {
-                "trend": "-100",
-                "difference": "0.998"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.021"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.034"
-            },
-            "volatility": "3.36 %",
-            "3h_volatility": "1.43 %",
-            "1h_volatility": "0.66 %",
-            "15m_volatility": "0.28 %"
-        },
-        "LTC-BTC": {
-            "0": {
-                "trend": "-100",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.000"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.009"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.009"
-            },
-            "volatility": "2.39 %",
-            "3h_volatility": "1.28 %",
-            "1h_volatility": "0.44 %",
-            "15m_volatility": "0.23 %"
-        },
-        "OMG-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.004"
-            },
-            "1": {
-                "trend": "33.33",
-                "difference": "0.990"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.006"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.019"
-            },
-            "volatility": "5.73 %",
-            "3h_volatility": "1.74 %",
-            "1h_volatility": "1.24 %",
-            "15m_volatility": "0.76 %"
-        },
-        "BAND-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "1": {
-                "trend": "33.33",
-                "difference": "0.986"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.035"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.090"
-            },
-            "volatility": "6.73 %",
-            "3h_volatility": "2.42 %",
-            "1h_volatility": "1.59 %",
-            "15m_volatility": "0.24 %"
-        },
-        "ETH-USDC": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.999"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.006"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.012"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.027"
-            },
-            "volatility": "3.55 %",
-            "3h_volatility": "1.94 %",
-            "1h_volatility": "0.97 %",
-            "15m_volatility": "0.60 %"
-        },
-        "KNC-BTC": {
-            "0": {
-                "trend": "66.66",
-                "difference": "0.994"
-            },
-            "1": {
-                "trend": "-66.66",
-                "difference": "1.023"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.072"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.077"
-            },
-            "volatility": "8.97 %",
-            "3h_volatility": "4.91 %",
-            "1h_volatility": "0.89 %",
-            "15m_volatility": "0.58 %"
-        },
-        "ZRX-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.005"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.997"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.031"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.060"
-            },
-            "volatility": "4.27 %",
-            "3h_volatility": "2.05 %",
-            "1h_volatility": "0.75 %",
-            "15m_volatility": "0.32 %"
-        },
-        "LINK-ETH": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.999"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.978"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.017"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.082"
-            },
-            "volatility": "8.51 %",
-            "3h_volatility": "2.43 %",
-            "1h_volatility": "1.58 %",
-            "15m_volatility": "0.57 %"
-        },
-        "BTC-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.999"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.005"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.016"
-            },
-            "volatility": "1.53 %",
-            "3h_volatility": "0.52 %",
-            "1h_volatility": "0.41 %",
-            "15m_volatility": "0.25 %"
-        },
-        "OMG-EUR": {
-            "0": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.994"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.011"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.034"
-            },
-            "volatility": "6.19 %",
-            "3h_volatility": "1.88 %",
-            "1h_volatility": "0.83 %",
-            "15m_volatility": "0.67 %"
-        },
-        "XLM-EUR": {
-            "0": {
-                "trend": "-100",
-                "difference": "0.998"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.998"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.027"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.045"
-            },
-            "volatility": "5.31 %",
-            "3h_volatility": "1.80 %",
-            "1h_volatility": "0.70 %",
-            "15m_volatility": "0.31 %"
-        },
-        "BCH-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.998"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "0.997"
-            },
-            "3": {
-                "trend": "-100",
-                "difference": "0.993"
-            },
-            "volatility": "2.51 %",
-            "3h_volatility": "0.85 %",
-            "1h_volatility": "0.40 %",
-            "15m_volatility": "0.10 %"
-        },
-        "ZEC-USDC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.003"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.001"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.001"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.011"
-            },
-            "volatility": "3.57 %",
-            "3h_volatility": "1.79 %",
-            "1h_volatility": "0.70 %",
-            "15m_volatility": "0.24 %"
-        },
-        "DASH-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.001"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.000"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.011"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.010"
-            },
-            "volatility": "1.80 %",
-            "3h_volatility": "0.74 %",
-            "1h_volatility": "0.49 %",
-            "15m_volatility": "0.38 %"
-        },
-        "COMP-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.007"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "1.010"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.037"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.031"
-            },
-            "volatility": "7.89 %",
-            "3h_volatility": "2.48 %",
-            "1h_volatility": "1.63 %",
-            "15m_volatility": "0.83 %"
+           "0": {
+              "trend": "100",
+              "difference": "1.008"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.989"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.979"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.995"
+           },
+           "volatility": "5.47 %",
+           "3h_volatility": "2.02 %",
+           "1h_volatility": "1.15 %",
+           "15m_volatility": "0.32 %"
         },
         "ATOM-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.004"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.995"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.009"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.046"
-            },
-            "volatility": "7.66 %",
-            "3h_volatility": "2.63 %",
-            "1h_volatility": "0.70 %",
-            "15m_volatility": "0.23 %"
+           "0": {
+              "trend": "100",
+              "difference": "1.013"
+           },
+           "1": {
+              "trend": "100",
+              "difference": "1.004"
+           },
+           "2": {
+              "trend": "-33.33",
+              "difference": "1.010"
+           },
+           "3": {
+              "trend": "100",
+              "difference": "1.022"
+           },
+           "volatility": "5.23 %",
+           "3h_volatility": "3.04 %",
+           "1h_volatility": "1.85 %",
+           "15m_volatility": "0.46 %"
         },
-        "DAI-USDC": {
-            "0": {
-                "trend": "-33.33",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.001"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "1.000"
-            },
-            "3": {
-                "trend": "-100",
-                "difference": "0.999"
-            },
-            "volatility": "0.63 %",
-            "3h_volatility": "0.25 %",
-            "1h_volatility": "0.13 %",
-            "15m_volatility": "0.13 %"
+        "CGLD-BTC": {
+           "0": {
+              "trend": "33.33",
+              "difference": "0.998"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.981"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.971"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.972"
+           },
+           "volatility": "5.97 %",
+           "3h_volatility": "0.62 %",
+           "1h_volatility": "0.33 %",
+           "15m_volatility": "0.20 %"
         },
-        "MANA-USDC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.010"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.025"
-            },
-            "2": {
-                "trend": "100",
-                "difference": "1.056"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.078"
-            },
-            "volatility": "9.93 %",
-            "3h_volatility": "2.43 %",
-            "1h_volatility": "0.74 %",
-            "15m_volatility": "0.00 %"
+        "BCH-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.998"
+           },
+           "2": {
+              "trend": "-66.66",
+              "difference": "1.005"
+           },
+           "3": {
+              "trend": "-33.33",
+              "difference": "1.013"
+           },
+           "volatility": "4.87 %",
+           "3h_volatility": "0.69 %",
+           "1h_volatility": "0.20 %",
+           "15m_volatility": "0.10 %"
         },
-        "EOS-BTC": {
-            "0": {
-                "trend": "0",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.000"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.003"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.001"
-            },
-            "volatility": "2.55 %",
-            "3h_volatility": "1.28 %",
-            "1h_volatility": "0.00 %",
-            "15m_volatility": "0.00 %"
+        "DASH-BTC": {
+           "0": {
+              "trend": "-100",
+              "difference": "0.999"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "volatility": "2.52 %",
+           "3h_volatility": "0.94 %",
+           "1h_volatility": "0.51 %",
+           "15m_volatility": "0.15 %"
+        },
+        "ETH-DAI": {
+           "0": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.995"
+           },
+           "2": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "3": {
+              "trend": "-33.33",
+              "difference": "1.014"
+           },
+           "volatility": "4.04 %",
+           "3h_volatility": "1.45 %",
+           "1h_volatility": "0.29 %",
+           "15m_volatility": "0.11 %"
+        },
+        "ETH-BTC": {
+           "0": {
+              "trend": "-33.33",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.997"
+           },
+           "2": {
+              "trend": "-66.66",
+              "difference": "1.005"
+           },
+           "3": {
+              "trend": "100",
+              "difference": "1.014"
+           },
+           "volatility": "3.48 %",
+           "3h_volatility": "0.98 %",
+           "1h_volatility": "0.27 %",
+           "15m_volatility": "0.15 %"
         },
         "XRP-BTC": {
-            "0": {
-                "trend": "-66.66",
-                "difference": "1.002"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.001"
-            },
-            "2": {
-                "trend": "-66.66",
-                "difference": "1.017"
-            },
-            "3": {
-                "trend": "-33.33",
-                "difference": "1.025"
-            },
-            "volatility": "12.60 %",
-            "3h_volatility": "1.17 %",
-            "1h_volatility": "0.53 %",
-            "15m_volatility": "0.22 %"
+           "0": {
+              "trend": "100",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.997"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.999"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.014"
+           },
+           "volatility": "1.75 %",
+           "3h_volatility": "0.63 %",
+           "1h_volatility": "0.40 %",
+           "15m_volatility": "0.40 %"
         },
-        "BTC-USDC": {
-            "0": {
-                "trend": "-100",
-                "difference": "1.000"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.003"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.014"
-            },
-            "volatility": "1.71 %",
-            "3h_volatility": "0.58 %",
-            "1h_volatility": "0.34 %",
-            "15m_volatility": "0.20 %"
-        },
-        "CVC-USDC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "1": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "2": {
-                "trend": "-33.33",
-                "difference": "1.023"
-            },
-            "3": {
-                "trend": "100",
-                "difference": "1.043"
-            },
-            "volatility": "7.52 %",
-            "3h_volatility": "1.53 %",
-            "1h_volatility": "1.38 %",
-            "15m_volatility": "0.83 %"
-        },
-        "ZEC-BTC": {
-            "0": {
-                "trend": "100",
-                "difference": "1.004"
-            },
-            "1": {
-                "trend": "66.66",
-                "difference": "0.998"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "0.998"
-            },
-            "3": {
-                "trend": "-66.66",
-                "difference": "0.998"
-            },
-            "volatility": "2.64 %",
-            "3h_volatility": "1.14 %",
-            "1h_volatility": "0.77 %",
-            "15m_volatility": "0.00 %"
+        "BAND-EUR": {
+           "0": {
+              "trend": "-33.33",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.971"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.947"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.987"
+           },
+           "volatility": "11.66 %",
+           "3h_volatility": "1.76 %",
+           "1h_volatility": "0.56 %",
+           "15m_volatility": "0.43 %"
         },
         "CGLD-EUR": {
-            "0": {
-                "trend": "100",
-                "difference": "1.002"
-            },
-            "1": {
-                "trend": "-100",
-                "difference": "0.993"
-            },
-            "2": {
-                "trend": "-100",
-                "difference": "0.999"
-            },
-            "3": {
-                "trend": "-66.66",
-                "difference": "1.011"
-            },
-            "volatility": "7.42 %",
-            "3h_volatility": "3.38 %",
-            "1h_volatility": "0.67 %",
-            "15m_volatility": "0.20 %"
+           "0": {
+              "trend": "100",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.981"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.967"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.974"
+           },
+           "volatility": "6.67 %",
+           "3h_volatility": "0.76 %",
+           "1h_volatility": "0.59 %",
+           "15m_volatility": "0.40 %"
+        },
+        "KNC-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.006"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.977"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.974"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.017"
+           },
+           "volatility": "9.60 %",
+           "3h_volatility": "1.40 %",
+           "1h_volatility": "0.87 %",
+           "15m_volatility": "0.04 %"
+        },
+        "COMP-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.005"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.980"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.978"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "volatility": "8.00 %",
+           "3h_volatility": "1.82 %",
+           "1h_volatility": "0.75 %",
+           "15m_volatility": "0.10 %"
+        },
+        "ETH-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.994"
+           },
+           "2": {
+              "trend": "-66.66",
+              "difference": "1.000"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.010"
+           },
+           "volatility": "4.61 %",
+           "3h_volatility": "1.42 %",
+           "1h_volatility": "0.37 %",
+           "15m_volatility": "0.37 %"
+        },
+        "BTC-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.996"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.996"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.000"
+           },
+           "volatility": "1.93 %",
+           "3h_volatility": "0.80 %",
+           "1h_volatility": "0.19 %",
+           "15m_volatility": "0.09 %"
+        },
+        "EOS-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.994"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.998"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.008"
+           },
+           "volatility": "3.13 %",
+           "3h_volatility": "1.20 %",
+           "1h_volatility": "0.37 %",
+           "15m_volatility": "0.27 %"
+        },
+        "LTC-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.000"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.994"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.006"
+           },
+           "volatility": "2.95 %",
+           "3h_volatility": "1.57 %",
+           "1h_volatility": "0.28 %",
+           "15m_volatility": "0.14 %"
+        },
+        "CVC-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.005"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.986"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.979"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.002"
+           },
+           "volatility": "5.42 %",
+           "3h_volatility": "1.40 %",
+           "1h_volatility": "1.32 %",
+           "15m_volatility": "1.11 %"
+        },
+        "LTC-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.989"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.989"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.007"
+           },
+           "volatility": "4.33 %",
+           "3h_volatility": "2.00 %",
+           "1h_volatility": "0.26 %",
+           "15m_volatility": "0.13 %"
+        },
+        "MKR-BTC": {
+           "0": {
+              "trend": "-66.66",
+              "difference": "1.000"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.978"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.978"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.008"
+           },
+           "volatility": "6.08 %",
+           "3h_volatility": "0.93 %",
+           "1h_volatility": "0.26 %",
+           "15m_volatility": "0.00 %"
+        },
+        "REP-BTC": {
+           "0": {
+              "trend": "33.33",
+              "difference": "0.996"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.983"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.997"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.023"
+           },
+           "volatility": "12.57 %",
+           "3h_volatility": "3.97 %",
+           "1h_volatility": "1.23 %",
+           "15m_volatility": "0.72 %"
+        },
+        "EOS-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.000"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.996"
+           },
+           "2": {
+              "trend": "-66.66",
+              "difference": "1.002"
+           },
+           "3": {
+              "trend": "-33.33",
+              "difference": "1.008"
+           },
+           "volatility": "2.98 %",
+           "3h_volatility": "0.84 %",
+           "1h_volatility": "0.42 %",
+           "15m_volatility": "0.42 %"
+        },
+        "ALGO-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.004"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.985"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.973"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.014"
+           },
+           "volatility": "10.84 %",
+           "3h_volatility": "2.90 %",
+           "1h_volatility": "1.13 %",
+           "15m_volatility": "0.00 %"
+        },
+        "XTZ-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.006"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.991"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.985"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.995"
+           },
+           "volatility": "4.38 %",
+           "3h_volatility": "1.46 %",
+           "1h_volatility": "0.84 %",
+           "15m_volatility": "0.13 %"
+        },
+        "NMR-BTC": {
+           "0": {
+              "trend": "-100",
+              "difference": "0.997"
+           },
+           "1": {
+              "trend": "-33.33",
+              "difference": "1.002"
+           },
+           "2": {
+              "trend": "66.66",
+              "difference": "0.999"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.000"
+           },
+           "volatility": "6.25 %",
+           "3h_volatility": "2.18 %",
+           "1h_volatility": "1.02 %",
+           "15m_volatility": "0.12 %"
+        },
+        "BCH-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.995"
+           },
+           "2": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.014"
+           },
+           "volatility": "5.10 %",
+           "3h_volatility": "1.33 %",
+           "1h_volatility": "0.36 %",
+           "15m_volatility": "0.11 %"
+        },
+        "LINK-EUR": {
+           "0": {
+              "trend": "-33.33",
+              "difference": "1.011"
+           },
+           "1": {
+              "trend": "100",
+              "difference": "1.004"
+           },
+           "2": {
+              "trend": "33.33",
+              "difference": "0.991"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.015"
+           },
+           "volatility": "5.83 %",
+           "3h_volatility": "3.51 %",
+           "1h_volatility": "1.38 %",
+           "15m_volatility": "0.23 %"
+        },
+        "BAND-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.972"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.949"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.985"
+           },
+           "volatility": "10.29 %",
+           "3h_volatility": "1.80 %",
+           "1h_volatility": "0.38 %",
+           "15m_volatility": "0.38 %"
+        },
+        "OMG-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "-66.66",
+              "difference": "0.986"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.974"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.990"
+           },
+           "volatility": "6.03 %",
+           "3h_volatility": "1.63 %",
+           "1h_volatility": "0.68 %",
+           "15m_volatility": "0.27 %"
+        },
+        "BAT-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.006"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.982"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.976"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.000"
+           },
+           "volatility": "6.77 %",
+           "3h_volatility": "2.06 %",
+           "1h_volatility": "0.62 %",
+           "15m_volatility": "0.21 %"
+        },
+        "ZEC-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.987"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.003"
+           },
+           "volatility": "4.10 %",
+           "3h_volatility": "1.08 %",
+           "1h_volatility": "0.41 %",
+           "15m_volatility": "0.00 %"
+        },
+        "XLM-EUR": {
+           "0": {
+              "trend": "-33.33",
+              "difference": "1.004"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.992"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.983"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.010"
+           },
+           "volatility": "4.42 %",
+           "3h_volatility": "1.80 %",
+           "1h_volatility": "0.44 %",
+           "15m_volatility": "0.28 %"
+        },
+        "ETC-BTC": {
+           "0": {
+              "trend": "-100",
+              "difference": "0.999"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.995"
+           },
+           "2": {
+              "trend": "66.66",
+              "difference": "1.000"
+           },
+           "3": {
+              "trend": "66.66",
+              "difference": "0.997"
+           },
+           "volatility": "4.89 %",
+           "3h_volatility": "2.63 %",
+           "1h_volatility": "1.69 %",
+           "15m_volatility": "0.38 %"
+        },
+        "NMR-EUR": {
+           "0": {
+              "trend": "0",
+              "difference": "0.997"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.998"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.997"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "volatility": "4.87 %",
+           "3h_volatility": "2.14 %",
+           "1h_volatility": "0.36 %",
+           "15m_volatility": "0.00 %"
+        },
+        "LOOM-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.010"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.984"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.986"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.020"
+           },
+           "volatility": "6.86 %",
+           "3h_volatility": "2.41 %",
+           "1h_volatility": "2.28 %",
+           "15m_volatility": "0.88 %"
+        },
+        "ZRX-BTC": {
+           "0": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.989"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.968"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.989"
+           },
+           "volatility": "7.37 %",
+           "3h_volatility": "1.42 %",
+           "1h_volatility": "0.39 %",
+           "15m_volatility": "0.20 %"
+        },
+        "ETC-EUR": {
+           "0": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "33.33",
+              "difference": "0.992"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.997"
+           },
+           "volatility": "2.84 %",
+           "3h_volatility": "2.52 %",
+           "1h_volatility": "0.90 %",
+           "15m_volatility": "0.24 %"
+        },
+        "LINK-ETH": {
+           "0": {
+              "trend": "-33.33",
+              "difference": "1.008"
+           },
+           "1": {
+              "trend": "100",
+              "difference": "1.011"
+           },
+           "2": {
+              "trend": "66.66",
+              "difference": "0.992"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.002"
+           },
+           "volatility": "5.99 %",
+           "3h_volatility": "2.85 %",
+           "1h_volatility": "1.73 %",
+           "15m_volatility": "0.22 %"
+        },
+        "DNT-USDC": {
+           "0": {
+              "trend": "0",
+              "difference": "0.990"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.986"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.988"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.999"
+           },
+           "volatility": "7.07 %",
+           "3h_volatility": "1.86 %",
+           "1h_volatility": "1.76 %",
+           "15m_volatility": "0.00 %"
+        },
+        "GNT-USDC": {
+           "0": {
+              "trend": "-66.66",
+              "difference": "1.020"
+           },
+           "1": {
+              "trend": "100",
+              "difference": "1.018"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.035"
+           },
+           "volatility": "9.16 %",
+           "3h_volatility": "8.52 %",
+           "1h_volatility": "3.79 %",
+           "15m_volatility": "0.10 %"
+        },
+        "BTC-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.997"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.995"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.001"
+           },
+           "volatility": "1.86 %",
+           "3h_volatility": "0.67 %",
+           "1h_volatility": "0.24 %",
+           "15m_volatility": "0.10 %"
+        },
+        "MANA-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.010"
+           },
+           "1": {
+              "trend": "-66.66",
+              "difference": "0.981"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.994"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.033"
+           },
+           "volatility": "7.56 %",
+           "3h_volatility": "2.43 %",
+           "1h_volatility": "1.69 %",
+           "15m_volatility": "0.46 %"
+        },
+        "UMA-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.968"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.973"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.992"
+           },
+           "volatility": "13.30 %",
+           "3h_volatility": "4.10 %",
+           "1h_volatility": "2.33 %",
+           "15m_volatility": "0.41 %"
+        },
+        "ETH-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.993"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.999"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.013"
+           },
+           "volatility": "4.39 %",
+           "3h_volatility": "1.35 %",
+           "1h_volatility": "0.41 %",
+           "15m_volatility": "0.06 %"
+        },
+        "XRP-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.994"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.994"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.015"
+           },
+           "volatility": "2.94 %",
+           "3h_volatility": "1.13 %",
+           "1h_volatility": "0.54 %",
+           "15m_volatility": "0.29 %"
+        },
+        "OMG-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.990"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.977"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.987"
+           },
+           "volatility": "4.75 %",
+           "3h_volatility": "1.32 %",
+           "1h_volatility": "0.45 %",
+           "15m_volatility": "0.15 %"
+        },
+        "UMA-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.001"
+           },
+           "1": {
+              "trend": "-100",
+              "difference": "0.970"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.975"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.986"
+           },
+           "volatility": "15.28 %",
+           "3h_volatility": "4.13 %",
+           "1h_volatility": "1.36 %",
+           "15m_volatility": "0.82 %"
+        },
+        "XLM-BTC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.994"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.989"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.010"
+           },
+           "volatility": "2.98 %",
+           "3h_volatility": "1.34 %",
+           "1h_volatility": "0.29 %",
+           "15m_volatility": "0.15 %"
+        },
+        "BAT-ETH": {
+           "0": {
+              "trend": "-33.33",
+              "difference": "1.002"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.987"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.978"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.987"
+           },
+           "volatility": "4.33 %",
+           "3h_volatility": "0.55 %",
+           "1h_volatility": "0.47 %",
+           "15m_volatility": "0.42 %"
+        },
+        "ZRX-EUR": {
+           "0": {
+              "trend": "100",
+              "difference": "1.003"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.986"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.962"
+           },
+           "3": {
+              "trend": "-100",
+              "difference": "0.989"
+           },
+           "volatility": "8.24 %",
+           "3h_volatility": "1.56 %",
+           "1h_volatility": "0.38 %",
+           "15m_volatility": "0.16 %"
+        },
+        "DAI-USDC": {
+           "0": {
+              "trend": "-66.66",
+              "difference": "1.000"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.999"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "1.000"
+           },
+           "3": {
+              "trend": "66.66",
+              "difference": "1.000"
+           },
+           "volatility": "0.54 %",
+           "3h_volatility": "0.13 %",
+           "1h_volatility": "0.10 %",
+           "15m_volatility": "0.08 %"
+        },
+        "ZEC-USDC": {
+           "0": {
+              "trend": "100",
+              "difference": "1.005"
+           },
+           "1": {
+              "trend": "66.66",
+              "difference": "0.984"
+           },
+           "2": {
+              "trend": "-100",
+              "difference": "0.987"
+           },
+           "3": {
+              "trend": "-66.66",
+              "difference": "1.002"
+           },
+           "volatility": "5.99 %",
+           "3h_volatility": "1.94 %",
+           "1h_volatility": "0.64 %",
+           "15m_volatility": "0.27 %"
         }
-    }
+     }
     var array = []
 
     for (var a in data) {
@@ -1230,6 +1230,9 @@ $(window).on('load', async function () {
 
     const max3h = parseInt(array[0]['3h_volatility'])
     const min3h = parseInt(array[array.length - 1]['3h_volatility'])
+
+    const max15m = parseInt(array[0]['15m_volatility'])
+    const min15m = parseInt(array[array.length - 1]['15m_volatility'])
 
     window.showDetails = (id) => {
         //alert(JSON.stringify($(`#${id}-content`)))
@@ -1313,6 +1316,7 @@ $(window).on('load', async function () {
     for (var a in array) {
         const volatility = parseInt(array[a]['volatility'])
         const volatility3h = parseInt(array[a]['3h_volatility'])
+        const volatility15m = parseInt(array[a]['15m_volatility'])
         $('#content').append(`<div class="col-inner col-12 col-md-6 col-lg-4">
         <div class="analytic-card card-primary">
             <div class="analytic-card-header">
